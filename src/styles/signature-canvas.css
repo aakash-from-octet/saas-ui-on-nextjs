@@ -1,0 +1,201 @@
+.signature-modal {
+  border-radius: 6px;
+  border: 1px solid #d0d3d9;
+  background: #fff;
+}
+
+.ant-tabs-content-holder {
+  width: 100%;
+}
+/* docu sign  */
+
+/* remove the top header - yellow ad thing */
+.sign-modal-upload-text.ant-upload-text {
+  color: #777c8c !important;
+  text-align: center;
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.12px;
+}
+
+.sign-modal-upload-hint.ant-upload-hint {
+  color: #777c8c !important;
+  text-align: center;
+  font-size: 10px !important;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.ant-upload-wrapper.sign-modal-upload-outer .ant-upload.ant-upload-drag {
+  background-color: #fff;
+  border: 1px dashed #a2a7b2;
+}
+
+.all-fonts-container {
+  padding: 17px 20px;
+  border-radius: 6px;
+  border: 1px solid #d0d3d9;
+  background: #fff;
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sign-canvas-options {
+  border-top: 1px solid #eeeef0;
+  padding: 8px 0px 16px;
+  margin: 0px 16px;
+}
+
+.blue-cborder {
+  outline: 2px solid #4277fd;
+  border-radius: 50px;
+  padding: 2px;
+}
+.red-cborder {
+  outline: 2px solid #db5858;
+  border-radius: 50px;
+  padding: 2px;
+}
+.black-cborder {
+  outline: 2px solid #2b313f;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.input-text-canvas-option {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #2b313f;
+  font-size: 14px;
+  font-weight: 600;
+  /* border: 1px solid #d0ddfe; */
+}
+.input-date-canvas-option {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #2b313f;
+  /* font-size: 14px; */
+  font-weight: 600;
+  width: 105px;
+  text-align: center;
+  /* border: 1px solid #d0ddfe; */
+}
+
+.grp-text-edit:focus-within .input-text-canvas-option,
+.grp-text-edit:focus-within .input-date-canvas-option {
+  border: 1px solid #9bb1e9 !important;
+  background: #eef2fb !important;
+  padding: 10px;
+  outline: none;
+}
+
+.text-editing-options {
+  position: absolute;
+  /* top: -40px;
+  right: 0; */
+  /* width: 92px; */
+  width: max-content;
+  background: #222732;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 12px; */
+  border-radius: 4px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.16);
+}
+.drag-editing-btn {
+  position: absolute;
+  top: -32px;
+  background: #eef2fb;
+  padding: 6px;
+  cursor: grab;
+}
+.date-editing-options {
+  position: absolute;
+  /* top: -40px;
+  right: 0; */
+  background: #222732;
+  display: flex;
+  /* width: 215px; */
+  width: max-content;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 12px; */
+  border-radius: 4px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.16);
+}
+.color-picker-popup {
+  background: #fbfdff;
+}
+
+.color-picker-vertical .ant-select-selector {
+  /* border-right: 1px solid #4e5461 !important; */
+  border-radius: 0px;
+  /* margin-top: -2px; */
+}
+
+.border-w {
+  border: 1px solid #fbfdff;
+  border-radius: 45px;
+}
+.tools-inactive {
+  /* padding: 8px !important; */
+  border-radius: 40px;
+  /* border: 0.8px solid #d0d3d9!important;
+  background: #fff !important; */
+  padding: 5px;
+  height: 30px !important;
+  width: 30px !important;
+}
+/* .active-mode-outline {
+  height: 40px !important;
+  border-radius: 40px;
+  border: 1px solid #4277fd;
+  background: #eef2fb;
+  box-shadow: 0px 4px 4px 0px rgba(119, 124, 140, 0.16);
+} */
+.active-mode-outline {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 40px;
+  /* border: 1px solid var(--active-border-color, #4277fd); */
+  /* background: var(--active-bg-color, #eef2fb); */
+  color: var(--active-text-color, #000); /* or any default color */
+  box-shadow: 0px 4px 4px 0px rgba(119, 124, 140, 0.16);
+}
+
+.ant-select.date-format-selector .ant-select-selection-item {
+  font-size: 14px;
+  padding-inline-end: 2px;
+  color: #eeeef0;
+  font-weight: 400;
+}
+
+.ant-select.date-format-selector .ant-select-selector {
+  padding: 8px;
+  padding-right: 0px;
+  border: none;
+  background: transparent;
+}
+
+.ant-select.date-format-selector .ant-select-arrow {
+  inset-inline-end: 4px;
+}
+
+.date-formats-selection {
+  padding: 0px;
+}
+
+.date-formats-selection .ant-select-item-option {
+  color: #2b313f !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 10px !important;
+}
+
+.date-formats-selection .ant-select-item-option:hover {
+  background: #f2f5ff;
+}

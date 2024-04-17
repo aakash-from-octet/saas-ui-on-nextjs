@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Recoleta Regular"),
+    url("../fonts/Recoleta-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/Gilroy-Bold.woff") format("woff"),
+    url("../fonts/Gilroy-Bold.ttf") format("truetype"),
+    url("../fonts/Gilroy-Bold.svg#Gilroy-Bold") format("svg");
+}

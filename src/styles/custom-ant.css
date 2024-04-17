@@ -1,0 +1,433 @@
+/* large-primary-button */
+.ant-btn.ant-btn-lg {
+  font-size: 14px !important;
+  font-weight: 600;
+  border-radius: 6px !important;
+  border: 1px solid #4277fd;
+}
+.ant-btn.gray-btn {
+  color: #777c8c;
+  border: 1px solid #d0d3d9 !important;
+}
+.ant-btn.green-btn,
+.ant-btn.ant-btn-default.green-btn:hover {
+  color: #419e78 !important;
+  padding: 1px 9px !important;
+  background: #e8fcf4 !important;
+  border: 1px solid #419e78 !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 16px !important;
+}
+.ant-btn.ant-btn-default.gray-btn:hover {
+  border-radius: 4px;
+  background: #eeeef0;
+  color: #4e5461 !important;
+  border: none !important;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-lg:hover,
+.ant-btn.ant-btn-primary:hover {
+  background: #174cd3 !important;
+  border: 1px solid #174cd3;
+}
+.ant-btn-primary.ant-btn-dangerous {
+  background: #d83243;
+  border: 1px solid #d83243;
+}
+
+.ant-btn-primary.ant-btn-dangerous:hover {
+  background: #b01222 !important;
+  border: 1px solid #b01222;
+}
+
+.ant-btn.btn-transparent-bg {
+  background: transparent;
+}
+
+.ant-btn.ant-btn-default:hover {
+  background: #eef2fb;
+  color: #4277fd !important;
+  border: 1px solid #eef2fb !important;
+}
+.ant-btn.ant-btn-text {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #4277fd !important;
+  border: none !important;
+  height: auto;
+  padding: 0px !important;
+}
+.ant-btn.ant-btn-text.auth-skip-btn {
+  font-size: 12px;
+  color: #4e5461 !important;
+  width: fit-content;
+  padding: 0px;
+}
+.ant-btn.ant-btn-text.auth-skip-btn:hover {
+  color: #2b313f !important;
+}
+.ant-btn.ant-btn-text:hover {
+  background-color: transparent !important;
+  height: auto;
+  color: #4277fd !important;
+}
+
+.ant-btn {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 6px 12px !important;
+  color: #4277fd !important;
+  border-radius: 4px !important;
+  border: 1px solid #4277fd !important;
+}
+.ant-btn-primary {
+  color: #fff !important;
+  background-color: #4277fd !important;
+}
+.ant-btn.ant-btn-primary:hover {
+  background: #174cd3;
+}
+
+.btn-with-lefticon .ant-btn-icon,
+.btn-with-lefticon .ant-image {
+  margin-inline-end: 6px !important;
+}
+
+.dark-btn.ant-btn {
+  color: #2b313f !important;
+  border: 1px solid #d0d3d9 !important;
+}
+
+.dark-btn.ant-btn-primary:disabled {
+  color: #777c8c !important;
+  background: #d0d3d9 !important;
+  border: 1px solid #d0d3d9 !important;
+}
+
+.ant-btn:disabled,
+.ant-btn:disabled:hover {
+  color: #777c8c !important;
+  background: #eeeef0 !important;
+  border: 1px solid #d0d3d9 !important;
+}
+
+.ant-btn.download-btn:disabled,
+.ant-btn.download-btn:disabled:hover {
+  border-radius: 6px !important;
+  border: 1px solid #a2a7b2 !important;
+  background: #fff !important;
+}
+
+.ant-btn.ant-btn-text.ant-btn-sm.text-small-btn {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+/* upload landing page  */
+.landing-main-upload {
+  max-width: 800px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.ant-upload-wrapper.landing-main-upload .ant-upload-drag {
+  border: 1px dashed #4277fd;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+}
+.ant-upload-wrapper.landing-main-upload:hover .ant-upload-drag {
+  border: 2px dashed #4277fd;
+}
+
+.landing-main-upload .ant-upload-drag p.ant-upload-drag-icon {
+  margin-bottom: 20px;
+}
+
+/* tabs of landing page  */
+.ant-tabs.usecases-tabs {
+  background: #fff;
+  margin: 0px 20px;
+  border-radius: 10px;
+}
+.ant-tabs.usecases-tabs > .ant-tabs-nav {
+  border-radius: 10px;
+  background: #eef2ff;
+  /* padding: 8px; */
+}
+.ant-tabs.usecases-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  padding: 8px;
+}
+
+.ant-tabs.usecases-tabs > .ant-tabs-content-holder {
+  min-height: 415px;
+}
+
+.ant-tabs.usecases-tabs > .ant-tabs-nav::before {
+  display: none;
+}
+
+.ant-tabs.usecases-tabs > .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ant-tabs.usecases-tabs
+  > .ant-tabs-nav
+  .ant-tabs-nav-wrap
+  .ant-tabs-nav-list
+  .ant-tabs-tab {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ant-tabs.usecases-tabs
+  > .ant-tabs-nav
+  .ant-tabs-nav-wrap
+  .ant-tabs-nav-list
+  .ant-tabs-tab.ant-tabs-tab-active {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(150, 159, 186, 0.21);
+}
+
+.ant-tabs.usecases-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+  color: #2b313f;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.ant-tabs.usecases-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 600;
+}
+
+/* to remove the tab bar  */
+.usecases-tabs .ant-tabs-ink-bar {
+  display: none;
+}
+
+/* for container in landing page  */
+.ant-collapse.faqs-container .ant-collapse-item {
+  border-radius: 8px;
+  border-bottom: none;
+  background: #fff;
+}
+.ant-collapse.faqs-container .ant-collapse-item .ant-collapse-header {
+  padding: 20px 25px;
+}
+.ant-collapse.faqs-container .ant-collapse-item:hover {
+  box-shadow: 0px 10px 20px 0px rgba(150, 159, 186, 0.21);
+}
+
+.ant-collapse.faqs-container {
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.ant-collapse.faqs-container .ant-collapse-header-text {
+  color: #1a1d26;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+}
+
+.ant-collapse.faqs-container .ant-collapse-content-box {
+  padding: 0px 25px 20px 25px;
+}
+.ant-collapse.faqs-container .ant-collapse-content-box p {
+  color: #4e5461;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+}
+
+/* expand icon on collapse - landing  */
+.faqs-container .ant-collapse-expand-icon .ant-image {
+  display: flex;
+  justify-content: center;
+}
+.ant-form-item-explain-error {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 4px;
+  color: #d83243 !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.ant-form-item-explain-error::before {
+  content: "";
+  display: inline-block; /* or 'block', depending on your layout */
+  width: 16px !important;
+  height: 16px !important;
+  background: url("../images/website/input-errocicon.svg") no-repeat center
+    center;
+  background-size: cover;
+  /* margin-right: 4px; */
+}
+
+.ant-input-status-error,
+.ant-input-affix-wrapper-status-error {
+  border-radius: 6px;
+  border: 2px solid #d83243 !important;
+  background: #ffebed;
+}
+
+.ant-input-affix-wrapper .ant-input {
+  background: transparent;
+  padding: 0px !important;
+}
+
+.modal-input,
+.ant-input-group-wrapper.modal-input-before .ant-input {
+  padding: 12px !important;
+  color: #2b313f;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.modal-input.ant-input::placeholder {
+  color: #777c8c;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ant-input-affix-wrapper.modal-input .ant-input::placeholder,
+.ant-input-group-wrapper.modal-input-before .ant-input::placeholder {
+  color: #777c8c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ant-input-password.modal-input .ant-input::placeholder {
+  color: #777c8c;
+  font-weight: 400;
+}
+
+.modal-input:hover,
+.ant-input-group-wrapper.modal-input-before .ant-input:hover {
+  border-radius: 6px;
+  border: 1px solid #7997e2;
+  box-shadow: 0px 0px 0px 2px #dee5f8;
+}
+.ant-input-group-wrapper.modal-input-before .ant-input-group-addon {
+  color: #2b313f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.modal-input:focus,
+.ant-input-affix-wrapper:focus-within,
+.ant-input-group-wrapper.modal-input-before .ant-input:focus-within {
+  border-radius: 6px;
+  border: 1.6px solid #4277fd;
+  box-shadow: 0px 0px 0px 2px #dee5f8;
+}
+
+.form-label {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.07px;
+}
+
+.ant-form-item {
+  margin: 0px !important;
+}
+
+.modal-custom-shadow .ant-modal-content {
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px 0px rgba(43, 49, 63, 0.12);
+}
+
+.modal-max-h {
+  max-height: 500px;
+  overflow-x: none;
+  overflow-y: auto;
+}
+
+.product-form-label {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product-input-text.ant-input-affix-wrapper {
+  border-radius: 6px;
+  border: 1px solid #d5d4dc;
+  height: 40px;
+}
+
+.product-input-text.ant-input-affix-wrapper .ant-input {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product-input-text.ant-input {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+}
+
+/* tooltips  */
+.ant-tooltip.primary-tooltip {
+  border-radius: 2px;
+  background: #222732;
+}
+.ant-tooltip.primary-tooltip .ant-tooltip-inner {
+  padding: 3px 8px;
+  background: transparent !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+}
+
+.ant-tooltip.primary-tooltip .ant-tooltip-inner p {
+  color: #eeeef0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+}
+
+.ant-tooltip.primary-tooltip .ant-tooltip-inner p > span {
+  color: #a2a7b2;
+  margin-left: 6px;
+}
+
+/* secondary tooltip */
+.ant-tooltip.sec-tooltip {
+  border-radius: 4px;
+  background: #222732;
+  box-shadow: 0px 4px 15px 0px rgba(34, 39, 50, 0.4);
+}
+.ant-tooltip.sec-tooltip .ant-tooltip-inner {
+  padding: 12px;
+  background: transparent !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+}
+.ant-tooltip.sec-tooltip .ant-tooltip-inner p {
+  color: #eeeef0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+  line-height: 22px; /* 157.143% */
+}

@@ -1,0 +1,183 @@
+.create-doc-breadcrumb .bread-num {
+  width: 24px !important;
+  height: 24px !important;
+  display: flex;
+  border-radius: 100px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 8px;
+  justify-content: center;
+}
+.ant-breadcrumb a:hover {
+  background-color: transparent !important;
+}
+p.bread-active {
+  color: #2b313f !important;
+  font-weight: 600;
+}
+p.bread-inactive {
+  color: #4e5461 !important;
+  font-weight: 500;
+}
+
+.bread-active span {
+  background: #4277fd !important;
+  color: #fff;
+}
+
+.bread-inactive span {
+  background: #eeeef0 !important;
+  color: #4e5461;
+}
+
+.create-doc-breadcrumb .bread-label {
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  display: flex;
+  align-items: center;
+}
+
+.create-doc-breadcrumb ol {
+  align-items: center;
+}
+
+.ant-breadcrumb-separator {
+  display: flex !important;
+}
+
+.product-container {
+  max-width: 1030px;
+  width: 100%;
+}
+.upload-outer-container {
+  padding: 48px;
+}
+
+.upload-doc-tabs.ant-tabs .ant-tabs-tab {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a2a7b2 !important;
+}
+
+.upload-doc-tabs.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #4e5461 !important;
+}
+
+.upload-doc-tabs.ant-tabs .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  background: #4277fd;
+  border-radius: 20px 20px 0px 0px;
+  height: 4px;
+}
+
+.dropzone-hero-upload-pro {
+  padding: 0px !important;
+  width: 100%;
+  border: none !important;
+  border-radius: 8px;
+  /* background: rgba(255, 255, 255, 0.4); */
+}
+
+.dropzone-hero-upload-pro .dz-message {
+  padding: 0px !important;
+}
+
+.dropzone-hero-inner-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed #a2a7b2;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: none;
+}
+
+.product-img-dz-details-inner {
+  padding: 8px 33px;
+  border-radius: 6px;
+  background: #eeeef0;
+}
+
+.product-upload-main-dz-details {
+  position: static !important;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 1 !important;
+  width: fit-content;
+  padding: 0px !important;
+}
+
+.product-upload-main-preview {
+  margin: 0px !important;
+  border: none;
+  background: #fff;
+}
+
+.dz-preview-outer.product-dz-preview-outer {
+  padding: 0px !important;
+}
+
+/* .product-uploader-container .dropzone.dz-started .dz-message {
+  display: flex;
+} */
+
+.icon-btn-smspace .ant-btn-icon {
+  margin-inline-end: 4px !important;
+}
+
+.senddoc-signers-details {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.ant-tag.senddoc-signer-tag {
+  padding: 4px 6px;
+  border-radius: 4px;
+  border-color: #eeeef0;
+  color: #2b313f;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12px;
+  background: #f2f5ff;
+}
+
+.ant-tag.senddoc-signer-tag .senddoc-tagletter {
+  /* padding: 6px 10px; */
+  margin-right: 4px;
+  display: flex;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 49px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400 !important;
+  line-height: normal;
+}
+
+.signer-tagletter {
+  color: #4277fd;
+  background: #c5d5ff;
+}
+
+.cc-tagletter {
+  color: #efb008;
+  background: #fff5d5;
+}
+
+.expiry-doc-select.ant-select .ant-select-selector {
+  border-radius: 6px;
+  border: 1px solid #d0d3d9;
+  background: #fff;
+}
+
+.expiry-doc-select.ant-select .ant-select-selector .ant-select-selection-item,
+.expiry-doc-select-popup .ant-select-item-option {
+  color: #4E5461;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  letter-spacing: 0.12px;
+}

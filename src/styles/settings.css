@@ -1,0 +1,198 @@
+.main-sidebar-settings {
+  background: #f6f7fa;
+  height: 100%;
+}
+
+.setting-tag {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 50px;
+  background: #e47653;
+  line-height: 12px;
+  padding: 4px 6px;
+}
+
+.sidebar-settings-list li.ant-menu-item span:first-of-type {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ant-menu.sidebar-list.sidebar-settings-list li a {
+  display: flex;
+  gap: 8px;
+}
+
+.sidebar-list.sidebar-settings-list .ant-menu-title-content span {
+  margin: 0px;
+}
+
+.input-no-border,
+.input-no-border:focus-within {
+  border: none !important;
+  box-shadow: none !important;
+}
+.signatures-display {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 20px;
+}
+.settings-sign {
+  width: 300px !important;
+  /* width: 100%; */
+  height: 180px !important;
+  border: 1px solid #d0d3d9;
+  padding: 12px 18px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 6px;
+  position: relative;
+}
+
+.ant-image-img.settings-sign-img {
+  width: 100%;
+  object-fit: cover !important;
+  height: 100% !important;
+  max-height: 140px;
+  padding-top: 20px;
+  margin-left: -10px;
+}
+
+/* .settings-sign-delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+} */
+.ant-upload-wrapper.account-display-picture {
+  width: fit-content !important;
+}
+.ant-upload-wrapper.account-display-picture
+  .ant-upload-list.ant-upload-list-picture-card
+  .ant-upload-list-item {
+  padding: 0px;
+  border: none;
+  border-radius: 100% !important;
+}
+
+.ant-upload-wrapper.account-display-picture
+  .ant-upload-list.ant-upload-list-picture-card
+  .ant-upload-list-item::before {
+  display: none !important;
+}
+
+.ant-upload-wrapper.account-display-picture
+  .ant-upload-list.ant-upload-list-picture-card
+  .ant-upload.ant-upload-select {
+  margin: 0px !important;
+  background: transparent;
+  border: none;
+  height: fit-content !important;
+}
+
+.ant-upload-wrapper.account-display-picture
+  .ant-upload-list.ant-upload-list-picture-card {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.account-display-picture.ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload-list.ant-upload-list-picture-card
+  .ant-upload-list-item-thumbnail {
+  border-radius: 100%;
+}
+
+/* settings contacts */
+.settings-contacts-outer {
+  padding: 32px;
+}
+
+.user-avatar-letter {
+  color: #2563eb !important;
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  background-color: #d3e1fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar-img {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.collapse-addtn-details.ant-collapse .ant-collapse-header {
+  padding: 0px;
+  width: fit-content !important;
+}
+.collapse-addtn-details.ant-collapse .ant-collapse-content-box {
+  padding: 24px 0px 0px 0px;
+  /* padding-block: 0px!important; */
+}
+
+.collapse-addtn-details.ant-collapse .ant-collapse-content {
+  max-height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.select-popup-container {
+  padding: 0px;
+}
+
+.select-popup-container .ant-select-item-option {
+  color: #2b313f !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 10px !important;
+}
+
+.select-popup-container .ant-select-item-option:hover {
+  background: #f2f5ff;
+}
+
+.add-sign-area {
+  border-radius: 8px;
+  border: 1px dashed #d0d3d9;
+  background: #fff;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.settings-sign-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* width: fit-content; */
+}
+
+.toast-primary.ant-notification-notice
+  .ant-notification-notice-content
+  .ant-notification-notice-message {
+  color: #2b313f;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+}
+
+.toast-primary.ant-notification-notice
+  .ant-notification-notice-content
+  .ant-notification-notice-description {
+  color: #4e5461;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.18px;
+}

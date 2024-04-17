@@ -1,0 +1,97 @@
+.login-col {
+  min-width: 541px;
+}
+
+@media (min-width: 768px) {
+  .login-bg {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-bg {
+    display: none;
+  }
+}
+
+.auth-wrap {
+  /* width: calc(100% - 130px); */
+  max-width: 400px;
+  min-width: 400px;
+  margin: auto;
+}
+
+.login-form-container,
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login-form-container .ant-form-item-required::before,
+.forgot-password-container .ant-form-item-required::before,
+.signup-form-container .ant-form-item-required::before {
+  display: none !important;
+}
+
+.product-select-recipient.ant-select {
+  height: 40px !important;
+}
+.product-select-recipient.ant-select .ant-select-selector {
+  padding: 12px !important;
+  height: 40px !important;
+  border-radius: 6px;
+  border: 1px solid #d0d3d9;
+  background: #fff;
+}
+
+.product-select-recipient.ant-select
+  .ant-select-selector
+  .ant-select-selection-item {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2b313f;
+}
+.product-select-recipient.ant-select
+  .ant-select-selector
+  .ant-select-selection-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777c8c;
+}
+.product-select-recipient.ant-select.ant-select-focused .ant-select-selector {
+  border: 2px solid #4277fd !important;
+  box-shadow: 0px 0px 0px 2px #dee5f8 !important;
+}
+.product-input-recipient.ant-input {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2b313f;
+  border-radius: 6px;
+  border: 1px solid #d0d3d9;
+}
+
+.product-input-recipient.ant-input::placeholder,
+.product-input-autocomplete .ant-select-selection-placeholder {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400 !important;
+  color: #a2a7b2 !important;
+}
+
+.save-contact-checkbox .ant-checkbox {
+  margin-bottom: -3px !important;
+}
+
+.rightsec-add-recipient {
+  min-height: 425px;
+}
+
+.phone-input-custom .phone-input-custominput,
+.phone-input-custom .flag-dropdown{
+  height: 44px !important;
+  border-radius: 6px;
+  border: 1px solid #d0d3d9 !important;
+}
+
+
